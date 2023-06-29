@@ -6,7 +6,7 @@ import pandas as pd
 file_structure = """{Name} was approved by the Loan Committee on {Status Date} at 2:30 PM."""
 
 # Find and read Excel file with the Data we need
-excel_file_path = "C:/Users/giovanni.casonato/Desktop/Pycharm/AutoDoc Creation/Brokers_Names.xlsx
+excel_file_path = "C:/Users/giovanni.casonato/Desktop/Pycharm/AutoDoc Creation/Brokers_Names.xlsx"
 df = pd.read_excel(excel_file_path)
 
 # Convert the Excel data into a dictionary
